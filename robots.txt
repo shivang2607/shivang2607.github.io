@@ -1,0 +1,25 @@
+User-Agent: GPTBot
+Allow: /
+
+User-Agent: ClaudeBot
+Allow: /
+
+User-Agent: Claude-Web
+Allow: /
+
+User-Agent: PerplexityBot
+Allow: /
+
+User-Agent: Google-Extended
+Allow: /
+
+User-Agent: CCBot
+Allow: /
+
+User-Agent: OAI-Searchbot
+Allow: /
+
+User-Agent: *
+Allow: /
+
+Sitemap: https://shivang2607.com/sitemap.xml
