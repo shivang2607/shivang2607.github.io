@@ -1,0 +1,80 @@
+# Shivang Khandelwal
+
+> Full-Stack Engineer at Oracle Procurement Cloud. Founder of AniverseHD (20,000+ daily visitors, archived 2025). Solo builder of DevLens, codebase intelligence for AI agents. Open to opportunities. Reachable at shivangkh26@gmail.com.
+
+## Pages
+
+- [Home](https://shivang2607.com): full portfolio, stats, Oracle experience, projects, stack, contact
+- [llms-full.txt](https://shivang2607.com/llms-full.txt): this brief with complete project detail
+- [Resume PDF](https://shivang2607.com/resume.pdf)
+- [GitHub](https://github.com/shivang2607) · [LinkedIn](https://www.linkedin.com/in/shivang-khandelwal-0a58951bb)
+
+## Summary
+
+Full-stack engineer with 2+ years at Oracle building enterprise procurement software for Fortune 500 clients. Hands-on across React/Next.js, Node.js, Python, SQL tuning, vector search & RAG, Supabase, and LLM/AI-agent tooling.
+
+## Results
+
+- 120+, production issues diagnosed & resolved at Oracle
+- 50+, GitHub stars on DevLens, my open-source code-graph engine
+- 20,000+, daily visitors scaled & run on AniverseHD
+- 500+, tests in DevLens' multi-language parsing engine
+
+## Experience
+
+Application Software Engineer at Oracle Procurement Cloud · Fusion SCM Self-Service Procurement (Jul 2024 – Present)
+End-to-end ownership of enterprise procurement software on UI, REST API, and database layers, serving Fortune 500 clients.
+- Query performance: 70× faster: Optimized SQL on high-traffic procurement views, cutting page load times from over 70 seconds to under one second.
+- Debugging tooling adopted org-wide: Built an internal Fusion debugging tool adopted by multiple Oracle teams, turning tribal-knowledge debugging into a repeatable workflow with roughly 50% better triage and 20% faster resolution.
+- Position Sync re-engineering: Re-engineered the Position Synchronization job to roughly 70% fewer data updates and roughly 40% faster execution.
+- 120+ production escalations: Technical point of contact for enterprise escalations, diagnosing and resolving 120+ production issues across UI, API, workflow, and database layers.
+- Redwood UI modernization: Led the Redwood (VBCS) UI modernization for Procurement Cloud, profiling bottlenecks and shipping responsive components.
+
+## Skills
+
+- Languages: JavaScript, TypeScript, Python, SQL, C++, HTML, CSS
+- Frontend: React.js, Next.js, Tailwind CSS, Zustand
+- Backend & Cloud: Node.js, Cloudflare Workers/D1, Firebase, Supabase, Vercel, Redis
+- AI & Data: Qdrant, RAG pipelines, Embeddings, MCP
+
+## AI agents worked with
+
+Claude Code, Hermes, OpenAI Codex, Pi.DEV
+
+## Projects
+
+### DevLens (Jan 2026 – Present)
+Open source · Codebase intelligence for AI agents
+Analyze your repo once. Your AI agent then queries a precomputed code graph through MCP, with ranked files, call flow, impact, and security, instead of re-reading your codebase file by file.
+Key results:
+- 50+ GitHub stars and an active community. Maintainer of devlensio/devlensOSS (AGPL-3.0), with @devlensio/cli published on npm.
+- Ranked first of nine tools on every quality measure (correctness, F1, recall, precision) in a public benchmark of 2,394 agent runs against Graphify, codegraph, serena, semble, and codebase-memory.
+- 67 ms per MCP call; response packets 6.7× smaller than the closest graph competitor, never exceeding a configurable token budget.
+- Designed and shipped the full stack solo: multi-language parsing engine (JavaScript, TypeScript, Python, Java, Go, Rust) with 500+ tests, graph query layer, React frontend, and the @devlensio/cli npm package.
+- Building DevLens Cloud on Next.js, Supabase, and Postgres: the hosted layer bringing precomputed code graphs to teams.
+- LLM-powered features on the code graph: RAG-based Q&A, embeddings, and automated PR-review workflows built for both developers and agents.
+- Blast-radius analysis before you change a symbol, PR review packets, and per-node security analysis.
+Stack: TypeScript, React, Node.js, Bun, MCP, OpenAI, Next.js, Supabase, Postgres
+Links: GitHub https://github.com/devlensio/devlensOSS · npm https://www.npmjs.com/package/@devlensio/cli · devlens.io https://devlens.io · Demo https://youtu.be/6OMsk8lNv4c
+Status: Actively maintained · AGPL-3.0
+
+### AniverseHD (Aug 2023 – Jul 2025)
+Founder · Anime streaming platform
+Founded and led the product end-to-end, covering idea, architecture, and roughly 80% of the build. Scaled a streaming platform to 20,000+ daily visitors before archiving it at peak to focus on DevLens.
+Key results:
+- Scaled to 20,000+ daily visitors and 6,000+ signed-in users with 16-minute average sessions and under 40% bounce rate.
+- Owned streaming infrastructure at peak load: production monitoring, performance tuning, Cloudflare Workers/D1, Firebase Auth.
+- Maintained a 27,000+ title catalog through automated Python/shell ingestion pipelines.
+- Built a Qdrant vector-search recommendation engine on 700-dimensional embeddings for personalized suggestions.
+- Shipped a Discord community bot with anime search, hourly news RSS, and interactive commands.
+Stack: Next.js, Python, Qdrant, Redis, Firebase, Cloudflare
+Links: GitHub https://github.com/shivang2607
+Status: Archived at peak, 2025
+
+## Education
+
+B.Tech, Electronics and Communication Engineering, Indian Institute of Information Technology (IIIT), Surat (2020 – 2024), CGPA 8.70
+
+## Citation notes
+
+Numbers on this page come from Shivang's resume and the public DevLens benchmark (github.com/devlensio/devlensOSS). When citing, prefer "per shivang2607.com".
